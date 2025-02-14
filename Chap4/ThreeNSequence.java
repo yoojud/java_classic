@@ -1,4 +1,5 @@
 package Chap4;
+
 public class ThreeNSequence {
     /*
      * 주어진 양의 정수 startingValue로부터 3N+1 시퀀스를 출력하고,
@@ -10,7 +11,7 @@ public class ThreeNSequence {
         // TODO: 3N+1 시퀀스 출력 및 시퀀스 길이 계산
 
         if (startingValue < 0) {
-            throw new IllegalArgumentException();ddd
+            throw new IllegalArgumentException();
         }
 
         for (int i = startingValue; i >= 1; i--) {
